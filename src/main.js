@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  const tomHead = new TomHead($("#board"));
   const head = new Head($('#board'));
   const apple = new Apple($('#board'));
 
@@ -6,6 +7,7 @@ $(document).ready(function() {
   let lastDate = new Date().getTime() - 100;
 
   $('body').on('keydown', function(e) {
+    // console.log(e.keyCode);
     dateNow = new Date().getTime();
     if (dateNow - lastDate >= 100) {
       if (e.keyCode === 37) {

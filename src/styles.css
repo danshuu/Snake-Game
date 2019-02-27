@@ -1,5 +1,5 @@
 body {
-  background: green;
+  background: #0055a7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,33 +31,49 @@ body {
 }
 
 #head {
-  /* background: black; */
+  background: black;
   height: 50px;
   width: 50px;
   background-color: green;
   border-radius: 25px;
-  /* background-image: url("https://cdn4.iconfinder.com/data/icons/animal-2-3/36/131-512.png"); */
+  background-size: cover;
+  /* background-image: url("http://pngimg.com/uploads/tom_and_jerry/tom_and_jerry_PNG63.png"); */
   position: absolute;
   z-index: 1;
 }
 
 #container {
-  width: 700px;
+  width: 1000px;
 }
 
 #board {
   height: 700px;
-  width: 700px;
+  width: 1000px;
   border: 1px white solid;
   position: relative;
-  background-color: black;
+  background: url('http://2.bp.blogspot.com/-pgx8eowiF_0/U774fvhGwgI/AAAAAAAAA0w/Gkg2exOObFg/s1600/kitchen+.png') no-repeat center center;
+  background-size: cover;
 }
 
 #apple {
+  /* background: black; */
+  /* background-color: black; */
   height: 50px;
   width: 50px;
   position: absolute;
   z-index: 0;
+}
+
+#tomhead {
+  background: black;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 25px;
+  background-size: cover;
+  /* background-image: url("http://pngimg.com/uploads/tom_and_jerry/tom_and_jerry_PNG63.png"); */
+  position: absolute;
+  z-index: 1;
 }
 
 .body {
